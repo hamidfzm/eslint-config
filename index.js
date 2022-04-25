@@ -27,7 +27,7 @@ module.exports = {
         '@typescript-eslint/no-unused-vars': 'error',
         'prettier/prettier': [
             'error',
-            { singleQuote: true, tabWidth: 2, trailingComma: 'es5', useTabs: false },
+            {singleQuote: true, tabWidth: 2, trailingComma: 'es5', useTabs: false},
         ],
     },
     globals: {
@@ -40,19 +40,19 @@ module.exports = {
     },
     overrides: [
         {
-            files: ['*.tsx'],
+            files: ['*.ts', '*.tsx'],
             rules: {
                 'simple-import-sort/imports': [
                     'error',
                     {
                         groups: [
-                            // Node.js builtins. You could also generate this regex if you use a `.js` config.
-                            // For example: `^(${require("module").builtinModules.join("|")})(/|$)`
+                            // Node.js builtins.
                             [
-                                '^(assert|buffer|child_process|cluster|console|constants|crypto|dgram|dns|domain|events|fs|http|https|module|net|os|path|punycode|querystring|readline|repl|stream|string_decoder|sys|timers|tls|tty|url|util|vm|zlib|freelist|v8|process|async_hooks|http2|perf_hooks)(/.*|$)',
+                                `^(${require("module").builtinModules.join("|")})(/|$)`
                             ],
                             // Packages. `react` related packages come first.
                             ['^react', '^@?\\w'],
+                            ['^next', '^@?\\w'],
                             // Internal packages.
                             ['^(@src)(/.*|$)'],
                             // Side effect imports.
