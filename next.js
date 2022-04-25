@@ -2,9 +2,8 @@ module.exports = {
     root: true,
     extends: [
         'eslint:recommended',
-        'plugin:react/recommended',
-        'plugin:react-hooks/recommended',
         'plugin:prettier/recommended',
+        'next'
     ],
     parserOptions: {
         sourceType: 'module',
@@ -60,6 +59,7 @@ module.exports = {
                             ],
                             // Packages. `react` related packages come first.
                             ['^react', '^@?\\w'],
+                            ['^next', '^@?\\w'],
                             // Internal packages.
                             ['^(@src)(/.*|$)'],
                             // Side effect imports.
