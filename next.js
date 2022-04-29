@@ -1,4 +1,4 @@
-const sharedRules = require('shared/rules');
+const sharedRules = require('./shared/rules');
 
 module.exports = {
     root: true,
