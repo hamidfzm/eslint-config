@@ -1,3 +1,5 @@
+const sharedRules = require('shared/rules');
+
 module.exports = {
     root: true,
     extends: [
@@ -17,15 +19,7 @@ module.exports = {
     },
     parser: '@typescript-eslint/parser',
     plugins: ['@typescript-eslint', 'simple-import-sort'],
-    rules: {
-        'react/prop-types': 'off',
-        'eslint-comments/no-unlimited-disable': 'off',
-        'react/react-in-jsx-scope': 'off',
-        'simple-import-sort/imports': 'error',
-        'simple-import-sort/exports': 'error',
-        'no-unused-vars': 'off',
-        '@typescript-eslint/no-unused-vars': 'error'
-    },
+    rules: sharedRules,
     globals: {
         React: 'writable',
     },
