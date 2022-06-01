@@ -1,11 +1,12 @@
 {
   "name": "@hamidfzm/eslint-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ESLint configuration used by Hamid FzM.",
   "main": "index.js",
   "license": "MIT",
   "files": [
     "shared/rules.js",
+    "shared/plugins.js",
     "index.js",
     "next.js",
     "README.md"

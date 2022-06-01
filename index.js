@@ -1,4 +1,5 @@
 const sharedRules = require('./shared/rules');
+const sharedPlugins = require('./shared/plugins');
 
 module.exports = {
     root: true,
@@ -18,7 +19,7 @@ module.exports = {
         jest: true,
     },
     parser: '@typescript-eslint/parser',
-    plugins: ['@typescript-eslint', 'simple-import-sort'],
+    plugins: sharedPlugins,
     rules: sharedRules,
     globals: {
         React: 'writable',
