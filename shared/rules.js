@@ -11,4 +11,22 @@ module.exports = {
         'error',
         { prefer: 'type-imports', disallowTypeAnnotations: false },
     ],
+    '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+    'no-restricted-syntax': [
+      'error',
+      {
+        selector:
+          "ImportDeclaration[source.value='react'][specifiers.0.type='ImportDefaultSpecifier']",
+        message: 'Default React import not allowed',
+      },
+    ],
+    'prefer-arrow-functions/prefer-arrow-functions': [
+      'error',
+      {
+        classPropertiesAllowed: false,
+        disallowPrototype: false,
+        returnStyle: 'explicit',
+        singleReturnOnly: false,
+      },
+    ],
 }
