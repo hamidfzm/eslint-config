@@ -33,6 +33,5 @@ module.exports = {
       'error',
       { max: 150, skipComments: true, skipBlankLines: true },
     ],
-    'import/no-unresolved': ['error'],
     'import/no-anonymous-default-export': ['error'],
 }
