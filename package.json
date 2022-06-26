@@ -1,9 +1,10 @@
 {
   "name": "@hamidfzm/eslint-config",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "ESLint configuration used by Hamid FzM.",
   "main": "index.js",
   "license": "MIT",
+  "private": false,
   "files": [
     "shared/rules.js",
     "shared/plugins.js",
@@ -11,6 +12,10 @@
     "next.js",
     "README.md"
   ],
+  "scripts": {
+    "eslint": "eslint --ext .js,.ts,.tsx .",
+    "lint": "yarn eslint"
+  },
   "repository": "https://github.com/hamidfzm/eslint-config",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.28.0",

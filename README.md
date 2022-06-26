@@ -1,5 +1,8 @@
 # eslint-config
-ESLint configuration used by Hamid FzM.
+ESLint's configuration used by Hamid FzM.
+I assume you are developing React or NextJS projects using typescript.
+
+For NextJS please use `@hamidfzm/eslint-config/next` config.
 
 ## Install
 
