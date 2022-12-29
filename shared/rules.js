@@ -25,7 +25,7 @@ module.exports = {
     {
       classPropertiesAllowed: false,
       disallowPrototype: false,
-      returnStyle: "explicit",
+      returnStyle: "implicit",
       singleReturnOnly: false,
     },
   ],
