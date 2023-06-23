@@ -1,17 +1,36 @@
 # eslint-config
-ESLint's configuration used by Hamid FzM.
-I assume you are developing React or NextJS projects using typescript.
+This is a configuration for ESLint created by Hamid FzM, and it is intended to be used for React or NextJS projects that utilize TypeScript.
 
-For NextJS please use `@hamidfzm/eslint-config/next` config.
-
+If you are working on a NextJS project, then please use the `@hamidfzm/eslint-config/next` configuration.
 ## Install
+You can install this configuration using either npm or yarn. Here are the commands:
 
 ### npm
 ```sh
-npm install --save @hamidfzm/eslint-config
+npm install --save-dev @hamidfzm/eslint-config
 ```
 
 ### yarn
 ```sh
-yarn add @hamidfzm/eslint-config
+yarn add -D @hamidfzm/eslint-config
+```
+
+## Usage
+To use this configuration, you need to add an extends property in your `.eslintrc.js` file with the value of `@hamidfzm`. Here's an example:
+
+```js
+module.exports = {
+  extends: '@hamidfzm',
+};
+```
+
+Additionally, if you want to use Prettier, you can add a `.prettierrc.js` file with your desired settings. Here's an example:
+
+```js
+module.exports = {
+  singleQuote: true,
+  tabWidth: 2,
+  trailingComma: 'es5',
+  useTabs: false,
+};
 ```

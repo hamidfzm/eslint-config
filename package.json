@@ -1,6 +1,6 @@
 {
   "name": "@hamidfzm/eslint-config",
-  "version": "0.4.2",
+  "version": "0.5.0",
   "description": "ESLint configuration used by Hamid FzM.",
   "main": "index.js",
   "license": "MIT",
@@ -19,22 +19,22 @@
   },
   "repository": "https://github.com/hamidfzm/eslint-config",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.47.0",
-    "@typescript-eslint/parser": "^5.47.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "^2.26.0",
+    "@typescript-eslint/eslint-plugin": "^5.60.0",
+    "@typescript-eslint/parser": "^5.60.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prefer-arrow-functions": "^3.1.4",
     "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^7.0.0"
   },
   "peerDependencies": {
     "@react-native-community/eslint-config": "^3.2.0",
-    "eslint": "^8.30.0",
-    "eslint-config-next": "^13.1.1",
-    "prettier": "^2.8.1",
-    "typescript": "^4.9.4"
+    "eslint": "^8.43.0",
+    "eslint-config-next": "^13.4.7",
+    "prettier": "^2.8.8",
+    "typescript": "^4.9.5"
   },
   "peerDependenciesMeta": {
     "typescript": {
@@ -48,8 +48,8 @@
     }
   },
   "devDependencies": {
-    "eslint": "^8.30.0",
-    "prettier": "^2.8.1",
-    "typescript": "^4.9.4"
+    "eslint": "^8.43.0",
+    "prettier": "^2.8.8",
+    "typescript": "^4.9.5"
   }
 }
