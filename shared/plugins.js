@@ -3,4 +3,5 @@ module.exports = [
   "simple-import-sort",
   "prefer-arrow-functions",
   "import",
+  "react-refresh",
 ];

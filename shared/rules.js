@@ -44,4 +44,8 @@ module.exports = {
     "always",
     { ignoreClassFields: true, destructureInSignature: "always" },
   ],
+  "react-refresh/only-export-components": [
+    "warn",
+    { allowConstantExport: true },
+  ],
 };
