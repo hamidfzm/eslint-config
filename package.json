@@ -1,6 +1,6 @@
 {
   "name": "@hamidfzm/eslint-config",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "ESLint configuration used by Hamid FzM.",
   "main": "index.js",
   "license": "MIT",
@@ -17,6 +17,27 @@
     "eslint": "eslint --ext .js,.ts,.tsx .",
     "lint": "yarn eslint"
   },
+  "keywords": [
+    "lint",
+    "next",
+    "react",
+    "react-native",
+    "typescript",
+    "eslint",
+    "eslint-config",
+    "eslint-config-hamidfzm",
+    "eslint-config-next",
+    "eslint-config-react-native",
+    "eslint-config-react",
+    "eslint-config-typescript",
+    "eslint-plugin-import",
+    "eslint-plugin-prefer-arrow-functions",
+    "eslint-plugin-prettier",
+    "eslint-plugin-react",
+    "eslint-plugin-react-hooks",
+    "eslint-plugin-react-refresh",
+    "eslint-plugin-simple-import-sort"
+  ],
   "repository": "https://github.com/hamidfzm/eslint-config",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.60.0",
