@@ -31,7 +31,7 @@ module.exports = {
   ],
   "max-lines": [
     "error",
-    { max: 150, skipComments: true, skipBlankLines: true },
+    { max: 200, skipComments: true, skipBlankLines: true },
   ],
   "import/no-anonymous-default-export": ["error"],
   "@typescript-eslint/no-duplicate-imports": [

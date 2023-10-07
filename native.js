@@ -3,7 +3,7 @@ const sharedPlugins = require("./shared/plugins");
 
 module.exports = {
   root: true,
-  extends: ["eslint:recommended", "@react-native-community"],
+  extends: ["eslint:recommended", "@react-native"],
   env: {
     es6: true,
     node: true,

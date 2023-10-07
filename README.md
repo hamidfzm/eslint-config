@@ -18,9 +18,24 @@ yarn add -D @hamidfzm/eslint-config
 ## Usage
 To use this configuration, you need to add an extends property in your `.eslintrc.js` file with the value of `@hamidfzm`. Here's an example:
 
+### Typical React Project with TypeScript
 ```js
 module.exports = {
   extends: '@hamidfzm',
+};
+```
+
+### React Project with NextJS
+```js
+module.exports = {
+  extends: '@hamidfzm/next',
+};
+```
+
+### React Native Project
+```js
+module.exports = {
+  extends: '@hamidfzm/react-native',
 };
 ```
 
@@ -30,7 +45,7 @@ Additionally, if you want to use Prettier, you can add a `.prettierrc.js` file w
 module.exports = {
   singleQuote: true,
   tabWidth: 2,
-  trailingComma: 'es5',
+  trailingComma: 'all',
   useTabs: false,
 };
 ```
