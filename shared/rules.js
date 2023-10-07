@@ -12,7 +12,7 @@ module.exports = {
     {
       prefer: "type-imports",
       disallowTypeAnnotations: false,
-      fixStyle: "inline-type-imports",
+      fixStyle: "separate-type-imports",
     },
   ],
   "@typescript-eslint/consistent-type-definitions": ["error", "type"],
@@ -38,7 +38,7 @@ module.exports = {
     { max: 200, skipComments: true, skipBlankLines: true },
   ],
   "import/no-anonymous-default-export": ["error"],
-  "import/no-duplicates": ["error", { "prefer-inline": true }],
+  "import/no-duplicates": ["error", { "prefer-inline": false }],
   "import/newline-after-import": ["error"],
   "react/destructuring-assignment": [
     "error",
