@@ -34,10 +34,7 @@ module.exports = {
     { max: 200, skipComments: true, skipBlankLines: true },
   ],
   "import/no-anonymous-default-export": ["error"],
-  "@typescript-eslint/no-duplicate-imports": [
-    "error",
-    { includeExports: true },
-  ],
+  "import/no-duplicates": ["error", { "prefer-inline": true }],
   "import/newline-after-import": ["error"],
   "react/destructuring-assignment": [
     "error",
