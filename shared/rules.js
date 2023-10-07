@@ -9,7 +9,11 @@ module.exports = {
   "@typescript-eslint/no-unused-vars": "error",
   "@typescript-eslint/consistent-type-imports": [
     "error",
-    { prefer: "type-imports", disallowTypeAnnotations: false },
+    {
+      prefer: "type-imports",
+      disallowTypeAnnotations: false,
+      fixStyle: "inline-type-imports",
+    },
   ],
   "@typescript-eslint/consistent-type-definitions": ["error", "type"],
   "no-restricted-syntax": [
