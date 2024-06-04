@@ -1,6 +1,6 @@
 {
   "name": "@hamidfzm/eslint-config",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "ESLint configuration used by Hamid FzM.",
   "main": "index.js",
   "license": "MIT",
